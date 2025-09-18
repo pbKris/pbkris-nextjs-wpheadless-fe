@@ -5,8 +5,6 @@ import pluginReact from 'eslint-plugin-react';
 import pluginReactHooks from 'eslint-plugin-react-hooks';
 import pluginReactRefresh from 'eslint-plugin-react-refresh';
 import nextPlugin from '@next/eslint-plugin-next';
-import prettier from 'eslint-plugin-prettier';
-import prettierConfig from 'eslint-config-prettier';
 
 export default tseslint.config(
   {
@@ -24,7 +22,6 @@ export default tseslint.config(
 
   ...tseslint.configs.recommended,
 
-  prettierConfig,
 
   {
     files: ['**/*.{js,mjs,cjs,jsx,ts,tsx}'],
@@ -33,7 +30,6 @@ export default tseslint.config(
       'react-hooks': pluginReactHooks,
       'react-refresh': pluginReactRefresh,
       '@next/next': nextPlugin,
-      prettier,
     },
     languageOptions: {
       ecmaVersion: 2020,
@@ -71,7 +67,6 @@ export default tseslint.config(
 
       'no-console': ['warn', { allow: ['warn', 'error'] }],
       eqeqeq: ['error', 'always'],
-      'prettier/prettier': 'error',
     },
   },
 

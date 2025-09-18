@@ -64,7 +64,7 @@
 
   // Files/Explorer: Exclude irrelevant files untuk performa
   "files.exclude": {
-    "**/.next": true,
+    "**/.next": false,
     "**/node_modules": false,
     "**/.git": false,
     "**/coverage": true
