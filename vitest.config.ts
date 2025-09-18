@@ -17,8 +17,8 @@ export default defineConfig({
       provider: 'v8',
       reporter: ['text', 'json', 'html'],
       include: ['src/**/*.{ts,tsx}'],
-      exclude: ['src/**/*.d.ts', 'node_modules/**']
-    }
+      exclude: ['src/**/*.d.ts', 'node_modules/**'],
+    },
   },
   resolve: {
     alias: {
