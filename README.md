@@ -1,14 +1,14 @@
 # Next.js Boilerplate with TypeScript & Testing
 
-This is a modern Next.js project bootstrapped with TypeScript, ESLint, Prettier, Vitest for testing, and shadcn/ui components. It's designed as a production-ready boilerplate for building scalable web applications.
+This is a modern Decoupled Next.js Frontend for Wordpress Headless project bootstrapped with TypeScript, ESLint, Prettier, Vitest for testing, and shadcn/ui components. It's designed as a production-ready boilerplate for building scalable web applications.
 
 ## 🚀 Features
 
-- ⚛️ **Next.js 14+** with App Router
+- ⚛️ **Next.js 15.3.3+** with App Router
 - 🟦 **TypeScript** for type safety
 - 📋 **ESLint & Prettier** for code quality and formatting
 - 🧪 **Vitest** with React Testing Library for comprehensive testing
-- 🎨 **shadcn/ui** components with Tailwind CSS and Radix UI
+- 🎨 **Shadcn/ui** components with Tailwind CSS and Radix UI
 - 📱 **Responsive Design** with Tailwind CSS
 - 🔒 **Husky** pre-commit hooks for linting and testing
 - 🌐 **Internationalization** ready (i18n setup)
@@ -17,9 +17,9 @@ This is a modern Next.js project bootstrapped with TypeScript, ESLint, Prettier,
 
 ## 🛠 Tech Stack
 
-- **Framework**: Next.js 14 (App Router)
+- **Framework**: Next.js 15.3.3 (App Router)
 - **Language**: TypeScript
-- **Styling**: Tailwind CSS + shadcn/ui
+- **Styling**: Tailwind CSS + Shadcn/ui
 - **UI Components**: Radix UI primitives
 - **Testing**: Vitest + React Testing Library
 - **Linting**: ESLint (flat config) + Prettier
@@ -30,24 +30,22 @@ This is a modern Next.js project bootstrapped with TypeScript, ESLint, Prettier,
 
 ### Prerequisites
 
-- Node.js 18+ or later
-- npm, yarn, pnpm, or bun
+- Node.js 23.11.0
+- npm
 
 ### Installation
 
 1. Clone the repository:
+
    ```bash
-   git clone https://github.com/pbKris/my-nextjs-boilerplate.git
+   git clone https://github.com/pbKris/pbkris-nextjs-wpheadless-fe.git
    cd my-nextjs-boilerplate
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
-   # or
-   yarn install
-   # or
-   pnpm install
    ```
 
 3. Copy the environment variables (if any):
@@ -107,18 +105,18 @@ npm run test:coverage
 
 ## 🔧 Scripts
 
-| Script | Description |
-|--------|-------------|
-| `dev` | Start development server |
-| `build` | Build for production |
-| `start` | Start production server |
-| `lint` | Run ESLint |
-| `lint:fix` | Fix linting issues |
-| `format` | Format code with Prettier |
-| `test` | Run tests |
-| `test:watch` | Run tests in watch mode |
-| `test:coverage` | Run tests with coverage |
-| `type-check` | Check TypeScript types |
+| Script          | Description               |
+| --------------- | ------------------------- |
+| `dev`           | Start development server  |
+| `build`         | Build for production      |
+| `start`         | Start production server   |
+| `lint`          | Run ESLint                |
+| `lint:fix`      | Fix linting issues        |
+| `format`        | Format code with Prettier |
+| `test`          | Run tests                 |
+| `test:watch`    | Run tests in watch mode   |
+| `test:coverage` | Run tests with coverage   |
+| `type-check`    | Check TypeScript types    |
 
 ## 📝 Code Quality
 
