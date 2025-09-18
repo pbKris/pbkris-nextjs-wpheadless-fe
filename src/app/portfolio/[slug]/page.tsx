@@ -1,8 +1,11 @@
 // app/portfolio/[slug]/page.tsx
-import { getProjectBySlug, getAllProjectSlugs } from '@/services/project-service';
+import {
+  getProjectBySlug,
+  getAllProjectSlugs,
+} from '@/services/project-service';
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import { notFound } from 'next/navigation';
-import { Callout } from '@/components/myCustomComponents/callout'; 
+import { Callout } from '@/components/myCustomComponents/callout';
 
 // Impor komponen kustom yang ingin Anda gunakan di dalam MDX
 // Contoh: import { Callout } from '@/components/ui/callout';

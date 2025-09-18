@@ -11,4 +11,3 @@ declare global {
   const beforeAll: typeof import('vitest').beforeAll;
   const afterAll: typeof import('vitest').afterAll;
 }
-
