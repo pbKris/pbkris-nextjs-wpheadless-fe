@@ -24,7 +24,7 @@ export default tseslint.config(
 
   ...tseslint.configs.recommended,
 
-  ...prettierConfig,
+  prettierConfig,
 
   {
     files: ['**/*.{js,mjs,cjs,jsx,ts,tsx}'],
